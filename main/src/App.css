@@ -1,0 +1,9 @@
+.container {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg {
+  object-fit: scale-down;
+}
