@@ -7,7 +7,7 @@
         attributeType="xml"
         attributeName="patternTransform"
         type="rotate" from="0" to="180" begin="0"
-        dur="60s" repeatCount="indefinite"/>
+        dur="180s" repeatCount="indefinite"/>
       <svg width="32" height="32" viewBox="0 0 100 100">
         <g fill="#4bbce2" class="patternOpacity">
           <path d="M64.5884 14.3424C62.3077 14.3424 60.0777 14.5577 57.9162 14.9676C63.3704 18.4498 67.9592 23.1711 71.2862 28.731C95.2235 36.6816 90.1399 71.7589 64.588 72.2553C46.8397 72.4356 36.101 51.8442 46.1847 37.4296C42.7094 34.4295 37.5541 32.9401 32.816 33.8264C20.6585 56.9236 38.3263 85.9819 64.5888 85.618C111.808 83.8731 111.8 16.0828 64.5884 14.3424V14.3424Z"></path>

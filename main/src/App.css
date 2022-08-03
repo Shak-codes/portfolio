@@ -1,9 +1,59 @@
+@font-face {
+  font-family: FeedingAMoment;
+  src: url(FeedingAMoment-wVdz.ttf);
+}
+
 .container {
+  position: relative;
   overflow: hidden;
   width: 100vw;
   height: 100vh;
 }
 
-.bg {
-  object-fit: scale-down;
+.overlay {
+  position: absolute;
+}
+
+.twitter-logo {
+  transition: all 500ms;
+  fill: #00acee;
+}
+
+.name {
+  transition: all 500ms;
+  stroke: #fff;
+  stroke-width: 2px;
+  fill: rgba(0, 0, 0, 0);
+  font-size: 120px;
+  font-family: FeedingAMoment; 
+  opacity: 0.5;
+}
+
+.twitter-logo:hover {
+  transition: all 500ms;
+  fill: #008cbb
+}
+
+.twitter-logo:hover ~ .name {
+  transition: all 500ms;
+  stroke: #133a64a2;
+  opacity: 1;
+  fill: #00acee;
+}
+
+.youtube-logo {
+  transition: all 500ms;
+  fill: red;
+}
+
+.youtube-logo:hover {
+  transition: all 500ms;
+  fill: rgb(197, 0, 0)
+}
+
+.youtube-logo:hover ~ .name {
+  transition: all 500ms;
+  stroke: #133a64a2;
+  opacity: 1;
+  fill: red;
 }
