@@ -1,6 +1,6 @@
 @font-face {
   font-family: FeedingAMoment;
-  src: url(FeedingAMoment-wVdz.ttf);
+  src: url(./assets/fonts/FeedingAMoment-wVdz.ttf);
 }
 
 .container {
@@ -56,4 +56,11 @@
   stroke: #133a64a2;
   opacity: 1;
   fill: red;
+}
+
+.headline {
+  fill: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: FeedingAMoment; 
+  opacity: 0.5;
 }
