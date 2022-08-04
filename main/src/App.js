@@ -24,7 +24,7 @@ function App() {
           <tspan>A</tspan>
           <tspan>N</tspan>
         </text>
-        <text className="headline" textAnchor="middle" dominantBaseline="middle" x='52.5%' y="52.5%">
+        {/* <text className="headline" textAnchor="middle" dominantBaseline="middle" x='52.5%' y="52.5%">
           Developer
         </text>
         <text className="headline" textAnchor="middle" dominantBaseline="middle" x='52.5%' y="62.5%">
@@ -32,7 +32,7 @@ function App() {
         </text>
         <text className="headline" textAnchor="middle" dominantBaseline="middle" x='52.5%' y="72.5%">
           Creator
-        </text>
+        </text> */}
       </svg>
       <img src={bg} alt={'test'} className="bg"/>
     </div>

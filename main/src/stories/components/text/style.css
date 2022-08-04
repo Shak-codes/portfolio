@@ -1,0 +1,8 @@
+@font-face {
+    font-family: customHelvetica;
+    src: url(../../../assets/fonts/Helvetica-Bold.ttf);
+}
+  
+.text {
+    font-family: customHelvetica;
+}
