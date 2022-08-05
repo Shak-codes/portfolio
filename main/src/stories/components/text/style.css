@@ -2,7 +2,16 @@
     font-family: customHelvetica;
     src: url(../../../assets/fonts/Helvetica-Bold.ttf);
 }
-  
+ 
+.container {
+    outline: 1px solid black;
+}
+
 .text {
     font-family: customHelvetica;
+    white-space: pre-line;
+}
+
+.test {
+    white-space: pre-line;
 }

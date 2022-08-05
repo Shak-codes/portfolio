@@ -8,7 +8,11 @@ export default {
         variant: 'title',
         text: 'test',
         fontSize: 12,
-        color: null
+        fill: false,
+        fillColor: null,
+        stroke: false,
+        strokeColor: null,
+        strokeWidth: 1
     },
     argTypes: {
         variant: {
@@ -33,9 +37,29 @@ export default {
             },
             defaultValue: 12
         },
-        color: {
-            description: 'Set the color of the text',
+        fill: {
+            description: 'Determine if text should be filled'
+        },
+        fillColor: {
+            description: 'Set the color of the fill',
             control: 'color'
+        },
+        stroke: {
+            description: 'Determine if text should be stroked'
+        },
+        strokeColor: {
+            description: 'Set the color of the stroke',
+            control: 'color'
+        },
+        strokeWidth: {
+            description: 'Set the width of the stroke',
+            control: {
+                type: 'number',
+                min: 1,
+                max: 3,
+                step: 1,
+            },
+            defaultValue: 1
         }
     },
 
